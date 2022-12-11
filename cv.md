@@ -28,12 +28,12 @@ I have a strong motivation to get into team of professional programmes and adopt
 
 ## Skills and Proficiency:
 
-Name | Experience
-:---:|:---------:
-HTML5, CSS3 | 2 months
-PHP Basics | 2 months
-C# | 1 year
-C++ | 2 years
+|    Name     | Experience |
+|:-----------:|:----------:|
+| HTML5, CSS3 |  2 months  |
+| PHP Basics  |  2 months  |
+|     C#      |   1 year   |
+|     C++     |  2 years   |
 
 ***
 
@@ -41,6 +41,7 @@ C++ | 2 years
 
 ["Does my number look big in this?" KATA from CODEWARS](https://www.codewars.com/kata/5287e858c6b5a9678200083c)
 
+["What is a narcissistic number?](https://en.wikipedia.org/wiki/Narcissistic_number)
 A Narcissistic Number is a positive number which is the sum of its own digits, each raised to the power of the number of
 digits in a given base. In this Kata, we will restrict ourselves to decimal (base 10).
 
