@@ -1,0 +1,179 @@
+Index: .idea/shelf/Uncommitted_changes_before_rebase_[Changes]15/shelved.patch
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]15/shelved.patch b/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]15/shelved.patch
+new file mode 100644
+--- /dev/null	(date 1670788945509)
++++ b/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]15/shelved.patch	(date 1670788945509)
+@@ -0,0 +1,41 @@
++Index: index.html
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
++<+><!doctype html>\r\n\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n\r\n    <title>The HTML5 Herald</title>\r\n    <meta name=\"description\" content=\"The HTML5 Herald\">\r\n    <meta name=\"author\" content=\"SitePoint\">\r\n\r\n    <link rel=\"stylesheet\" href=\"css/styles.css?v=1.0\">\r\n\r\n    <!--[if lt IE 9]>\r\n    <script src=\"//html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\r\n    <![endif]-->\r\n</head>\r\n\r\n<body>\r\n<script src=\"js/scripts.js\"></script>\r\n</body>\r\n</html>
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/index.html b/index.html
++--- a/index.html	(revision 7c8f9630b2e0c8c2334925944e2bfd2bdf2bfef4)
+++++ b/index.html	(date 1670788879682)
++@@ -8,7 +8,7 @@
++     <meta name="description" content="The HTML5 Herald">
++     <meta name="author" content="SitePoint">
++ 
++-    <link rel="stylesheet" href="css/styles.css?v=1.0">
+++    <link rel="stylesheet" href="css/style.css?v=1.0">
++ 
++     <!--[if lt IE 9]>
++     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
++Index: .idea/workspace.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
++<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"58cdcb0c-e3ad-4601-bffa-f4943f696fd0\" name=\"Changes\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n        <option value=\"HTTP Request\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2IkFXNiCRqDVqe5V5cAi63GCvi4\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;D:/WebStrom/projects/rsschool-cv/Dependencies&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\WebStrom\\projects\\rsschool-cv\\Dependencies\" />\r\n      <recent name=\"D:\\WebStrom\\projects\\rsschool-cv\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\WebStrom\\projects\\rsschool-cv\\Images\" />\r\n      <recent name=\"D:\\WebStrom\\projects\\rsschool-cv\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"58cdcb0c-e3ad-4601-bffa-f4943f696fd0\" name=\"Changes\" comment=\"\" />\r\n      <created>1670717713340</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1670717713340</updated>\r\n      <workItem from=\"1670717714503\" duration=\"26516000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"docs: add a title\" />\r\n    <MESSAGE value=\"refactor: change the paths of images in folder Images\" />\r\n    <MESSAGE value=\"refactor: change a link for cv.md\" />\r\n    <MESSAGE value=\"refactor: add a link for cv.md\" />\r\n    <MESSAGE value=\"refactor: add a link on wiki for narcissistic number\" />\r\n    <MESSAGE value=\"refactor: change the paths of images\" />\r\n  </component>\r\n</project>
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/workspace.xml b/.idea/workspace.xml
++--- a/.idea/workspace.xml	(revision 7c8f9630b2e0c8c2334925944e2bfd2bdf2bfef4)
+++++ b/.idea/workspace.xml	(date 1670788702621)
++@@ -1,7 +1,10 @@
++ <?xml version="1.0" encoding="UTF-8"?>
++ <project version="4">
++   <component name="ChangeListManager">
++-    <list default="true" id="58cdcb0c-e3ad-4601-bffa-f4943f696fd0" name="Changes" comment="" />
+++    <list default="true" id="58cdcb0c-e3ad-4601-bffa-f4943f696fd0" name="Changes" comment="">
+++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+++      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+++    </list>
++     <option name="SHOW_DIALOG" value="false" />
++     <option name="HIGHLIGHT_CONFLICTS" value="true" />
++     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1670789239524)
++++ b/.idea/modules.xml	(date 1670789239524)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/rsschool-cv.iml" filepath="$PROJECT_DIR$/.idea/rsschool-cv.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/rsschool-cv.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/rsschool-cv.iml b/.idea/rsschool-cv.iml
+new file mode 100644
+--- /dev/null	(date 1670789239499)
++++ b/.idea/rsschool-cv.iml	(date 1670789239499)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="WEB_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/temp" />
++      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
++      <excludeFolder url="file://$MODULE_DIR$/tmp" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"58cdcb0c-e3ad-4601-bffa-f4943f696fd0\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/style.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/style.css\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n        <option value=\"HTTP Request\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2IkFXNiCRqDVqe5V5cAi63GCvi4\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;D:/WebStrom/projects/rsschool-cv/Dependencies&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\WebStrom\\projects\\rsschool-cv\\Dependencies\" />\r\n      <recent name=\"D:\\WebStrom\\projects\\rsschool-cv\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\WebStrom\\projects\\rsschool-cv\\Images\" />\r\n      <recent name=\"D:\\WebStrom\\projects\\rsschool-cv\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"58cdcb0c-e3ad-4601-bffa-f4943f696fd0\" name=\"Changes\" comment=\"\" />\r\n      <created>1670717713340</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1670717713340</updated>\r\n      <workItem from=\"1670717714503\" duration=\"26516000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"docs: add a title\" />\r\n    <MESSAGE value=\"refactor: change the paths of images in folder Images\" />\r\n    <MESSAGE value=\"refactor: change a link for cv.md\" />\r\n    <MESSAGE value=\"refactor: add a link for cv.md\" />\r\n    <MESSAGE value=\"refactor: add a link on wiki for narcissistic number\" />\r\n    <MESSAGE value=\"refactor: change the paths of images\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 912a7484e0dec20fe87911bf20a49576191371c5)
++++ b/.idea/workspace.xml	(date 1670789521573)
+@@ -2,9 +2,12 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="58cdcb0c-e3ad-4601-bffa-f4943f696fd0" name="Changes" comment="">
++      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/rsschool-cv.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]15/shelved.patch" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_15.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -62,6 +65,7 @@
+       <option name="presentableId" value="Default" />
+       <updated>1670717713340</updated>
+       <workItem from="1670717714503" duration="26516000" />
++      <workItem from="1670789205821" duration="314000" />
+     </task>
+     <servers />
+   </component>
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>CV#2. HTML, CSS &amp Git Basics</title>\r\n    <link href=\"style.css\" rel=\"stylesheet\">\r\n    <script src=\"Dependencies/jquery-3.6.1.min.js\"></script>\r\n</head>\r\n<body>\r\n<main><h1>Welcome</h1></main>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision 912a7484e0dec20fe87911bf20a49576191371c5)
++++ b/index.html	(date 1670788955061)
+@@ -1,12 +1,21 @@
+-<!DOCTYPE html>
++<!doctype html>
++
+ <html lang="en">
+ <head>
+-    <meta charset="UTF-8">
+-    <title>CV#2. HTML, CSS &amp Git Basics</title>
+-    <link href="style.css" rel="stylesheet">
+-    <script src="Dependencies/jquery-3.6.1.min.js"></script>
++    <meta charset="utf-8">
++
++    <title>The HTML5 Herald</title>
++    <meta name="description" content="The HTML5 Herald">
++    <meta name="author" content="SitePoint">
++
++    <link rel="stylesheet" href="css/styles.css?v=1.0">
++
++    <!--[if lt IE 9]>
++    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
++    <![endif]-->
+ </head>
++
+ <body>
+-<main><h1>Welcome</h1></main>
++<script src="js/scripts.js"></script>
+ </body>
+ </html>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_rebase__Changes_15.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_rebase__Changes_15.xml b/.idea/shelf/Uncommitted_changes_before_rebase__Changes_15.xml
+new file mode 100644
+--- /dev/null	(date 1670789239241)
++++ b/.idea/shelf/Uncommitted_changes_before_rebase__Changes_15.xml	(date 1670789239241)
+@@ -0,0 +1,4 @@
++<changelist name="Uncommitted_changes_before_rebase_[Changes]15" date="1670788957092" recycled="true" deleted="true">
++  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]15/shelved.patch" />
++  <option name="DESCRIPTION" value="Uncommitted changes before rebase [Changes]" />
++</changelist>
+\ No newline at end of file
