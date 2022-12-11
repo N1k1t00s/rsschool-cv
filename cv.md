@@ -1,6 +1,6 @@
 # Nikita Kovalev
 
-![Human.png](D:\WebStrom\projects\rsschool-cv\Images\Human.png)
+![Human.png](Images/Human.png)
 
 ***
 
@@ -77,7 +77,7 @@ function narcissistic(value) {
 
 ## Courses
 
-RS Schools Course «JavaScript/Front-end. Stage 0» `rgb(9, 105, 218)`
+RS Schools Course «JavaScript/Front-end. Stage 0»
 
 ***
 
@@ -85,4 +85,4 @@ RS Schools Course «JavaScript/Front-end. Stage 0» `rgb(9, 105, 218)`
 
 * Russian - Native
 * English - Intermediate/Upper-intermediate (according to the online test at www.efset.org)
-  ![EN-test.png](D:\WebStrom\projects\rsschool-cv\Images\EN-test.png)
+  ![EN-test.png](Images/EN-test.png)
