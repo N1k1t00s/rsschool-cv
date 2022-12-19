@@ -1,6 +1,6 @@
 # Nikita Kovalev
 
-![Human.png](Images/Human.png)
+![Human.png](Images/Assets/Human.png)
 
 ***
 
@@ -85,4 +85,4 @@ RS Schools Course «JavaScript/Front-end. Stage 0»
 
 * Russian - Native
 * English - Intermediate/Upper-intermediate (according to the online test at www.efset.org)
-  ![EN-test.png](Images/EN-test.png)
+  ![EN-test.png](Images/Assets/EN-test.png)
