@@ -10,8 +10,8 @@
     <script src="Dependencies/jquery-ui.js"></script>
     <!--    <script src="Dependencies/jquery-3.6.1.min.js"></script>-->
     <script type="text/javascript">
-        $(document).ready(function() {
-            $("#year").text( (new Date).getFullYear() );
+        $(document).ready(function () {
+            $("#year").text((new Date).getFullYear());
         });
     </script>
 </head>
@@ -33,12 +33,14 @@
 <main>
     <article>
         <div class="grid-container">
-            <section id="initials">
-                <div class="grid-item box" style="border: dashed 2px; margin: 10px">
-                    <h1>Nikita Kovalev</h1>
-                    <h2>Future Front-End-Developer</h2>
-                    <img src="Images/Assets/Human.png" alt="A photo of Nikita Kovalev" style="border: solid 2px;">
-                </div>
+            <section id="main-info">
+                <section id="initials">
+                    <div class="grid-item box" style="border: dashed 2px; margin: 10px;">
+                        <h1>Nikita Kovalev</h1>
+                        <h2>Future Front-End-Developer</h2>
+                        <img src="Images/Assets/Human.png" alt="A photo of Nikita Kovalev" class="bordered">
+                    </div>
+                </section>
                 <section id="about-myself">
                     <div class="grid-item">
                         <h2>About myself</h2>
@@ -58,52 +60,55 @@
                         </p>
                     </div>
                 </section>
-                <section id="contact-information">
-                    <div class="grid-item">
-                        <h2>Contact information</h2>
-                        <ul class="box">
-                            <li>Phone: +7-985-723-55-91</li>
-                            <li>E-mail: nikitoos1993@gmail.com</li>
-                            <li>Telegram: <a href="https://t.me/Night_summer">Night_summer</a> or @Night_summer</li>
-                        </ul>
-                    </div>
-                </section>
-                <section id="skills-and-proficiency">
-                    <div class="grid-item">
-                        <h2>Skills and Proficiency</h2>
-                        <ul class="box">
-                            <li>
-                                HTML5, CSS3
-                                <div class="progressbar">
-                                    <span class="progressbar-filling" id="html-css-skill" style="width: 50%;"></span>
-                                </div>
-                            </li>
-                            <li>
-                                PHP Basics
-                                <div class="progressbar">
-                                    <span class="progressbar-filling" id="php-skill" style="width: 60%;"></span>
-                                </div>
-                            </li>
-                            <li>
-                                C#
-                                <div class="progressbar">
-                                    <span class="progressbar-filling" id="csharp-skill" style="width: 80%;"></span>
-                                </div>
-                            </li>
-                            <li>
-                                C++
-                                <div class="progressbar">
-                                    <span class="progressbar-filling" id="c-skill" style="width: 90%;"></span>
-                                </div>
-                            </li>
-                            <li>
-                                Git
-                                <div class="progressbar">
-                                    <span class="progressbar-filling" id="git-skill" style="width: 86%;"></span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                <section>
+                    <section id="contact-information">
+                        <div class="grid-item">
+                            <h2>Contact information</h2>
+                            <ul class="box">
+                                <li>Phone: +7-985-723-55-91</li>
+                                <li>E-mail: nikitoos1993@gmail.com</li>
+                                <li>Telegram: <a href="https://t.me/Night_summer">Night_summer</a> or @Night_summer</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section id="skills-and-proficiency">
+                        <div class="grid-item">
+                            <h2>Skills and Proficiency</h2>
+                            <ul class="box">
+                                <li>
+                                    HTML5, CSS3
+                                    <div class="progressbar">
+                                        <span class="progressbar-filling" id="html-css-skill"
+                                              style="width: 50%;"></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    PHP Basics
+                                    <div class="progressbar">
+                                        <span class="progressbar-filling" id="php-skill" style="width: 60%;"></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    C#
+                                    <div class="progressbar">
+                                        <span class="progressbar-filling" id="csharp-skill" style="width: 80%;"></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    C++
+                                    <div class="progressbar">
+                                        <span class="progressbar-filling" id="c-skill" style="width: 90%;"></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    Git
+                                    <div class="progressbar">
+                                        <span class="progressbar-filling" id="git-skill" style="width: 86%;"></span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
                 </section>
             </section>
 
@@ -114,7 +119,8 @@
                         <a href="https://www.codewars.com/kata/5287e858c6b5a9678200083c">KATA from CODEWARS</a>
 
                         “What is a narcissistic number?
-                        A Narcissistic Number is a positive number which is the sum of its own digits, each raised to the power
+                        A Narcissistic Number is a positive number which is the sum of its own digits, each raised to
+                        the power
                         of the number of digits in a given base.
                         In this Kata, we will restrict ourselves to decimal (base 10).
 
@@ -123,14 +129,16 @@
                     <p class="box text">
                         The Challenge:
 
-                        Your code must return true or false (not ‘true’ and ‘false’) depending upon whether the given number
+                        Your code must return true or false (not ‘true’ and ‘false’) depending upon whether the given
+                        number
                         is a Narcissistic number in base 10.
                         This may be True and False in your language, e.g. PHP.
 
                         Error checking for text strings or other invalid inputs is not required,
                         only valid positive non-zero integers will be passed into the function.
                     </p>
-                    <p class="box text">
+                    <br>
+                    <pre class="text-code">
                         function narcissistic(value) {
                         var numbers = String(value).split('');
                         var sum = 0;
@@ -140,7 +148,7 @@
                         if (sum === value) return true;
                         else return false;
                         }
-                    </p>
+                    </pre>
                 </div>
             </section>
             <section id="courses">
@@ -152,7 +160,7 @@
             <section id="languages">
                 <div class="grid-item box" style="border: dashed 2px; margin: 10px">
                     <h2>Languages</h2>
-                    <ul class="box">
+                    <ul class="text-code">
                         <li>
                             Russian - Native
                         </li>
@@ -160,7 +168,8 @@
                             English - Intermediate/Upper-intermediate (according to the online test at www.efset.org)
                         </li>
                     </ul>
-                    <img src="Images/Assets/EN-test.png" alt="EN-test" style="width: 1270px; height: 922px;">
+                    <img src="Images/Assets/EN-test.png" alt="EN-test" class="bordered"
+                         style="width: 1270px; height: 922px;">
                 </div>
             </section>
         </div>
@@ -171,13 +180,15 @@
         <nav>
             <ul>
                 <li>
+                    <a href="https://github.com/N1k1t00s"><img src="Images/Logos/GitHub_Logo.png" alt="github logo"
+                                                               class="logo"></a>
+                </li>
+                <li>
                     ©<span id="year"></span> by Nikita Kovalev
                 </li>
                 <li>
-                    <a href="https://github.com/N1k1t00s"><img src="Images/Logos/GitHub_Logo.png" alt="github logo" class="logo"></a>
-                </li>
-                <li>
-                    <a href="https://rs.school/js/"><img src="Images/Logos/rs_school_js.svg" alt="rs-school-js logo" class="logo"></a>
+                    <a href="https://rs.school/js/"><img src="Images/Logos/rs_school_js.svg" alt="rs-school-js logo"
+                                                         class="logo"></a>
                 </li>
             </ul>
         </nav>

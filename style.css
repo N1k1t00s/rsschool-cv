@@ -20,8 +20,8 @@ a:visited {
 
 /*settings for img objects*/
 img {
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
 }
 
 h1 {
@@ -96,10 +96,14 @@ ul {
     animation-play-state: running;
 }
 
+img.bordered{
+    border: solid 2px;
+}
+
 div.grid-item > ul {
     padding: 20px;
     display: inline-block;
-    text-align: justify;
+    text-align: left;
 }
 
 div.grid-item > pre.text-code {
@@ -120,13 +124,12 @@ div.grid-item > p.text {
     white-space: pre-line;
 }
 
-div.grid-container > #initials {
+div.grid-container > #main-info {
     border: solid 2px;
     display: inline-grid;
-    align-items: center;
+    align-items: first baseline;
     justify-content: center;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 0.5fr 2fr 1fr;
 }
 
 @keyframes backgroundColorAnimation {
