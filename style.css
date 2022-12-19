@@ -1,0 +1,147 @@
+/*global settings*/
+html {
+    color: #0dff9b;
+    background-color: #483D8BFF;
+    font-family: "Century Gothic";
+}
+
+/*settings for link objects*/
+a:link {
+    color: rgba(13, 255, 155, 0.99);
+}
+
+a:hover {
+    color: rgba(13, 255, 17, 0.65);
+}
+
+a:visited {
+    color: rgba(13, 255, 155, 0.32);
+}
+
+/*settings for img objects*/
+img {
+    width: 600px;
+    height: 600px;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*settings for grid objects*/
+.grid-container {
+    border: solid 2px;
+    display: grid;
+    background-image: radial-gradient(circle at center, #483D8BFF, rgba(13, 255, 155, 0.32));
+}
+
+.grid-item {
+    text-align: center;
+    font-size: 1.1em;
+    padding: 1.5em;
+}
+
+/*settings for nav objects*/
+.nav-container, .nav-container > nav > ul > li {
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 10px 40px 10px;
+    word-spacing: 2px;
+    padding: 0 8px 0 8px;
+    display: inline;
+}
+
+.box {
+    background-color: rgb(39, 20, 143);
+    border: solid 2px;
+    border-radius: 15px 30px 10px 40px;
+}
+
+.text-code{
+    background-color: rgb(39, 20, 143);
+    border: solid 1px;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.logo{
+    width: 200px;
+    height: 64px;
+}
+
+#git-logo.logo:hover, #rs-school-logo.logo:hover{
+    transform: scale(1.2);
+}
+
+.progressbar {
+    width: 400px;
+    height: 12px;
+    margin-top: 5px;
+    background-color: rgba(20, 31, 27, 0.51);
+    display: inline-grid;
+}
+
+.progressbar-filling {
+    background-color: rgba(57, 238, 71, 0.84);
+    animation-name: backgroundColorAnimation;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+img.bordered{
+    border: solid 2px;
+}
+
+div.grid-item > ul {
+    padding: 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+div.grid-item > pre.text-code {
+    display: inline-table;
+    padding: 50px;
+    text-align: justify;
+    font-size: 20px;
+    word-spacing: 4px;
+    white-space: pre-line;
+}
+
+div.grid-item > p.text {
+    display: inline-table;
+    padding: 50px;
+    text-align: justify;
+    font-size: 20px;
+    word-spacing: 4px;
+    white-space: pre-line;
+}
+
+div.grid-container > #main-info {
+    border: solid 2px;
+    display: inline-grid;
+    align-items: first baseline;
+    justify-content: center;
+    grid-template-columns: 0.5fr 2fr 1fr;
+}
+
+@keyframes backgroundColorAnimation {
+    from {
+        background-color: rgba(57, 238, 71, 0.84);;
+    }
+    to {
+        background-color: #0dff9b;;
+    }
+}
+
