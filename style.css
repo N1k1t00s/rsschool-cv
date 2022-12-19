@@ -77,6 +77,10 @@ ul {
     height: 64px;
 }
 
+#git-logo.logo:hover, #rs-school-logo.logo:hover{
+    transform: scale(1.2);
+}
+
 .progressbar {
     width: 400px;
     height: 12px;
@@ -140,3 +144,4 @@ div.grid-container > #main-info {
         background-color: #0dff9b;;
     }
 }
+
