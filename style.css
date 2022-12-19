@@ -72,6 +72,11 @@ ul {
     border-radius: 20px;
 }
 
+.logo{
+    width: 200px;
+    height: 64px;
+}
+
 .progressbar {
     width: 400px;
     height: 12px;

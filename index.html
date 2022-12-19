@@ -9,8 +9,11 @@
     <script src="Dependencies/jquery.js"></script>
     <script src="Dependencies/jquery-ui.js"></script>
     <!--    <script src="Dependencies/jquery-3.6.1.min.js"></script>-->
-    <script>
-        document.getElementById("year").innerHTML = new Date().getFullYear();
+    <script type="text/javascript">
+        var currentYear = (new Date).getFullYear();
+        $(document).ready(function() {
+            $("#year").text( (new Date).getFullYear() );
+        });
     </script>
 </head>
 <body>
@@ -172,10 +175,10 @@
                     ©<span id="year"></span> by Nikita Kovalev
                 </li>
                 <li>
-                    <a href="https://github.com/N1k1t00s">Me on GitHub</a>
+                    <a href="https://github.com/N1k1t00s"><img src="Images/Logos/GitHub_Logo.png" alt="github logo" class="logo"></a>
                 </li>
                 <li>
-                    <a href="https://rs.school/js/"><img src="Images/Logos/rs_school_js.svg" style="width: 100px; height: 100px;"></a>
+                    <a href="https://rs.school/js/"><img src="Images/Logos/rs_school_js.svg" alt="rs-school-js logo" class="logo"></a>
                 </li>
             </ul>
         </nav>
