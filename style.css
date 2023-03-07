@@ -136,6 +136,26 @@ div.grid-container > #main-info {
     grid-template-columns: 0.5fr 2fr 1fr;
 }
 
+#skills-html{
+    width: 50%;
+}
+
+#skills-php{
+    width: 60%;
+}
+
+#skills-c-sharp{
+    width: 80%;
+}
+
+#skills-c-plus{
+    width: 86%;
+}
+
+#skills-git{
+    width: 90%;
+}
+
 @keyframes backgroundColorAnimation {
     from {
         background-color: rgba(57, 238, 71, 0.84);;
