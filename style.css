@@ -65,19 +65,19 @@ ul {
     border-radius: 15px 30px 10px 40px;
 }
 
-.text-code{
+.text-code {
     background-color: rgb(39, 20, 143);
     border: solid 1px;
     padding: 12px;
     border-radius: 20px;
 }
 
-.logo{
+.logo {
     width: 200px;
     height: 64px;
 }
 
-#git-logo.logo:hover, #rs-school-logo.logo:hover{
+#git-logo.logo:hover, #rs-school-logo.logo:hover {
     transform: scale(1.2);
 }
 
@@ -100,7 +100,7 @@ ul {
     animation-play-state: running;
 }
 
-img.bordered{
+img.bordered {
     border: solid 2px;
 }
 
@@ -136,24 +136,35 @@ div.grid-container > #main-info {
     grid-template-columns: 0.5fr 2fr 1fr;
 }
 
-#skills-html{
+#skills-html {
     width: 50%;
 }
 
-#skills-php{
+#skills-php {
     width: 60%;
 }
 
-#skills-c-sharp{
+#skills-c-sharp {
     width: 80%;
 }
 
-#skills-c-plus{
+#skills-c-plus {
     width: 86%;
 }
 
-#skills-git{
+#skills-git {
     width: 90%;
+}
+
+#grid-item-box {
+    border: dashed 2px;
+    margin: 10px;
+    padding-bottom: 40px;
+}
+
+#ln-img {
+    width: 1270px;
+    height: 922px;
 }
 
 @keyframes backgroundColorAnimation {
