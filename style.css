@@ -162,6 +162,11 @@ div.grid-container > #main-info {
     padding-bottom: 40px;
 }
 
+#grid-item-box-main {
+    border: dashed 2px;
+    margin: 10px;
+}
+
 #ln-img {
     width: 1270px;
     height: 922px;
