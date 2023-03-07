@@ -148,7 +148,7 @@
                         function narcissistic(value) {
                         var numbers = String(value).split('');
                         var sum = 0;
-                        for (let i = 0; i &lt numbers.length; i++) {
+                        for (let i = 0; i &lt; numbers.length; i++) {
                         parseInt(sum += numbers[i] ** numbers.length);
                         }
                         if (sum === value) return true;
